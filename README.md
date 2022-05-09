@@ -4,6 +4,7 @@ This repository contains my class material for ECE493: IoT and Intelligent Senso
 
 ## Table of Contents
 - [Lecture 1](https://github.com/RohitKochhar/ECE498A/blob/master/Course%20Notes/ECE493-Lecture1.md)
+- [Lecture 2](https://github.com/RohitKochhar/ECE498A/blob/master/Course%20Notes/ECE493-Lecture2.md)
 
 ## Acknowledgements
 - The course material is adopted from teaching material provided by Professor Otman A. AL Basir.

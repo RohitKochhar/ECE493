@@ -11,12 +11,12 @@
     - [Event-to-Sink Reliable Transport (ESRT)](#event-to-sink-reliable-transport-esrt)
   - [Why not TCP?](#why-not-tcp)
   - [Why not UDP?](#why-not-udp)
+- [Footnotes (from in-lecture)](#footnotes-from-in-lecture)
 
 ## Transport Layer Objectives
 - The success and efficiency of WSNs directly depend on reliable communication between sensor nodes and the sink.
 - In a multi-hop, mulit-sensor environment, a reliable transport mechanism is imperative.
 - The main objects of a transport layer protocol for WSNs are as follows:
-
 ### Congestion Control
 - Packet losses due to congestion can impair reliability at the sink, even when enough info is sent out by the sources.
 - Congestion control is an important component of the transport layer to achieve the required reliability.
@@ -32,7 +32,7 @@
     - Explicit or implicit notification
   - Rate Adjustment
     - Nodes adjust their traffic sending rate
-    - AIMD (Additive Increase Multiplicatvie Decrease) schemes.
+    - AIMD (Additive Increase Multiplicativ=e Decrease) schemes.
 
 ### Reliable Transport
 - Based on application requirements, the extracted event features should be reliably transferred to the sink.
@@ -82,7 +82,9 @@
 - TCP depends on network-wide unique addresses of nodes
 - Preprocessing or aggregation of data in intermediate nodes is desirable and often necessary
   - Packets can often be combined or changed before they reach their final destination.
-- TCP is not light-weight, and has too much overhead.
+- TCP is not light-weight, and has too much overhead. 
 
 ## Why not UDP?
 - No reliability at all (EASY!)
+
+# Footnotes (from in-lecture)
